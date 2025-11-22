@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Car> cars = new ArrayList<>();
-        Rase race = new Rase();
+        Race race = new Race();
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Введите название " + (i + 1) + "-го автомобиля: ");
@@ -65,7 +65,7 @@ class Car {
    }
 }
 
-class Rase {
+class Race {
     String winner = "";
     int maxDistance = 0;
 
